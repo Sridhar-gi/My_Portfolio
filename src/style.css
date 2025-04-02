@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    padding: 15px 30px;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    color: #4dabf7;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #333;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    color: #bbb;
+  }
+  
+  /* Projects Section */
+  .projects {
+    text-align: center;
+    padding: 60px 20px;
+    background: #222;
+  }
+  
+  .projects h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers the project cards */
+    gap: 20px; /* Space between projects */
+  }
+  
+  .project-card {
+    width: 300px; /* Set a fixed width */
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Slight background */
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.1); /* Zoom effect */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Add a shadow */
+  }
+  
+  
+  .project-card h3 {
+    color: #4dabf7;
+  }
+  
+  .project-card a {
+    display: block;
+    margin-top: 10px;
+    color: #4dabf7;
+    text-decoration: none;
+  }
+  
+  
+  /* Contact Section */
+  .contact {
+    text-align: center;
+    padding: 60px 20px;
+    background: #333;
+  }
+  
+  .contact h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .contact p {
+    font-size: 18px;
+    color: #bbb;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    background: #111;
+    padding: 20px;
+    font-size: 14px;
+    color: #888;
+  }
+  
+   .profile-pic {
+        width: 150px;  /* Adjust for size (smaller or larger) */
+        height: 190px;
+        border-radius: 50%;  /* Makes it round */
+        display: block;
+        margin: 20px auto;  /* Centers the image */
+          /* Optional: Adds a border */
+      }
+      
+      /* General Styling */
+.education-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  /* Education Section */
+  .edu-item {
+    background: #444;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 80%;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+
+  .edu-item:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+  
+  
+  /* Certification Section */
+  .cert-item {
+    background: #444;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 80%;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+
+  .cert-item:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+  
+  /* Small Certificate Preview */
+  .certificate-img {
+    width: 200px;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .certificate-img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Full-Screen Overlay */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .full-img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+  }
+  
